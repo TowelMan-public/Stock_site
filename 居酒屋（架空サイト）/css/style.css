@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body {
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.access1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-aline: center;
+}
+
+.INFO1 table {
+	display: flex;
+	justify-content: center;
+}
+
+.INFO1 tbody,th,tr {
+	border: solid;
+}
+
+.INFO2 div,h4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.other-menu {
+	max-wide: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.eating{
+	margin: auto auto 5em auto;
+}
+
+.side{
+	margin: 5em auto auto auto;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	max-wide: 1200px;
+}
+
+.mmenu {
+	display: flex;
+	justify-content: center;
+	max-wide: 1200px;
+}
+
+.mMname {
+	margin: auto auto auto 6em;
+}
+
+.mMvalue {
+	margin: auto 6em auto auto;
+}
+
+.Mname {
+	text-align: left;
+	margin-rigit: 6em;
+}
+
+.Mvalue {
+	text-align: right;
+	margin-left: 6em;
+}
+
+.center{
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+#HOME_TEMPLATE {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+form {
+	width: 100%;
+}
+textarea {
+	width: 100%;
+}
+select {
+	width: 100%;
+}
+.maxw {
+	width: 100%;
+}
+
+/*////////////////////////////////////////*/
+@media (max-width: 767px) {
+	body {
+		margin: 0 8px;
+	}
+	.other-menu {
+		display: block;
+	}
+	.Mname{
+		margin: 0 auto 0 8px;
+	}
+	.Mvalue {
+		margin: 0 8px 0 auto;
+	}
+	.mMname{
+		margin: 0 auto 0 8px;
+	}
+	.mMvalue {
+		margin: 0 8px 0 auto;
+	}
+	# li {
+		display: block;
+	}
+}
